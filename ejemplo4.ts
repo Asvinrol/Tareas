@@ -13,7 +13,6 @@ crearCuadrado({ancho: 10});
 function imprimir(estadoCivil: 'soltero' | 'casado'){
     console.log(estadoCivil);
 }
-
 imprimir('soltero');
 //Ejemplo 15
 function saludar4(fn: (a: string) => void){
